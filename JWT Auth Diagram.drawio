@@ -102,6 +102,60 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zPrHte_14N2qF1YJ3hVc-1" target="zPrHte_14N2qF1YJ3hVc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-1" value="Register&amp;nbsp;&lt;br&gt;(with email)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-3" value="OTP to email" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="1">
+          <mxGeometry x="305" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zPrHte_14N2qF1YJ3hVc-4" target="zPrHte_14N2qF1YJ3hVc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-4" value="Login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-5" value="&lt;div&gt;G&lt;span style=&quot;background-color: initial;&quot;&gt;en AccessToken &amp;amp; RefreshToken&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="1">
+          <mxGeometry x="305" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="290" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-6" value="Refresh token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-13">
+          <mxGeometry y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-7" value="- Validate refreshtoken expiry&lt;div&gt;- regen access and refresh token&lt;/div&gt;&lt;div&gt;- blacklisted the previous token&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-13">
+          <mxGeometry x="130" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-11" value="auth bearer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-13">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-8" value="Logout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-14">
+          <mxGeometry y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-12" value="auth bearer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-14">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="540" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-16" value="changepasword" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#7EA6E0;gradientColor=#E8E8E8;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-15">
+          <mxGeometry y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-17" value="auth bearer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zPrHte_14N2qF1YJ3hVc-15">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-18" value="&lt;span style=&quot;&quot;&gt;- Validate accesstoken expiry&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- blacklisted the previous token&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPrHte_14N2qF1YJ3hVc-19" value="&lt;span style=&quot;&quot;&gt;- Validate refreshtoken expiry&lt;/span&gt;&lt;div style=&quot;&quot;&gt;- blacklisted the previous token&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="580" width="190" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
